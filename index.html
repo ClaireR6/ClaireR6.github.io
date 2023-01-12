@@ -2,7 +2,11 @@
 <html>
 <style>
     body{
+        margin:1%;
         background: #575757;
+        border-right: 25px solid #7f7f7f;
+        border-left: 25px solid #7f7f7f;
+        box-sizing:border-box;
     }
     .card{
         background:#7f7f7f;
@@ -31,8 +35,7 @@
         color:#E87A00;
         transition-duration: .5s;
         padding: 5px 7px;
-        border-width:0;
-        border-color: #575757;
+        border: 0 #575757;
 
 
     }
@@ -44,17 +47,22 @@
 <body>
 <h1 >
     <div class="card">
-        <div style="padding: 0px 400px 0px 25px;">
+        <div style="padding: 0px 40% 0px 25px;">
             <div class="bracket"> < </div> <div> claireRoca </div> <div class="bracket"> > </div>
         </div>
         <div class="container-fluid">
             <div class="row">
+                <div class="col"> <a class="btn btn-sm" href="#cover" role = "button">Cover Letter</a> </div>
                 <div class="col"> <a class="btn btn-sm" href="Resume.html" role = "button">Resume</a> </div>
-                <div class="col"> <a class="btn btn-sm" href="Cover.html" role = "button">Cover Letter</a> </div>
                 <div class="col"> <a class="btn btn-sm" href="Projects.html" role = "button">Projects</a> </div>
-                <div class="col"> <a class="btn btn-sm" href="Education.html" role = "button">Education</a> </div>
+                <div class="col"> <a class="btn btn-sm" href="Contact.html" role = "button">Contact</a> </div>
             </div>
         </div>
+    </div>
+    <div style="padding:250px 0px"></div>
+    <div id="cover">
+        Cover
+
     </div>
 
 </h1>
