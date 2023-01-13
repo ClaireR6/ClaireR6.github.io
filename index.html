@@ -1,71 +1,166 @@
 <!DOCTYPE html>
 <html>
-<style>
-    body{
-        margin:1%;
-        background: #575757;
-        border-right: 25px solid #7f7f7f;
-        border-left: 25px solid #7f7f7f;
-        box-sizing:border-box;
-    }
-    .card{
-        background:#7f7f7f;
-        width: 100%;
-        padding: 25px 0px 100px 0px;
-    }
-    h1 {
-        color: #D89C60;
-    }
-    .col{
-        padding: 0px 10px;
-    }
-    .bracket{
-        color: #E87A00;
-    }
-    div{
-        display:inline-block;
-        padding:0px;
-        margin:0px;
-    }
-    .btn{
-        background-color: #6b6b6b;
-        border-radius: 10px;
-        font-family: SansSerif;
-        font-size:20px;
-        color:#E87A00;
-        transition-duration: .5s;
-        padding: 5px 7px;
-        border: 0 #575757;
-
-
-    }
-    .btn:hover{
-        background-color: #575757;
-        border-width: 3px;
-    }
-</style>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1 >
+<h1>
     <div class="card">
-        <div style="padding: 0px 40% 0px 25px;">
-            <div class="bracket"> < </div> <div> claireRoca </div> <div class="bracket"> > </div>
+        <div style="padding: 0px 45% 0px 25px;">
+            <div class="bracket"> <</div>
+            <div> claireRoca</div>
+            <div class="bracket"> ></div>
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col"> <a class="btn btn-sm" href="#cover" role = "button">Cover Letter</a> </div>
-                <div class="col"> <a class="btn btn-sm" href="Resume.html" role = "button">Resume</a> </div>
-                <div class="col"> <a class="btn btn-sm" href="Projects.html" role = "button">Projects</a> </div>
-                <div class="col"> <a class="btn btn-sm" href="Contact.html" role = "button">Contact</a> </div>
+                <div class="col"><a class="btn btn-sm" href="#about" role="button">About Me</a></div>
+                <div class="col"><a class="btn btn-sm" href="#resume" role="button">Resume</a></div>
+                <div class="col"><a class="btn btn-sm" href="#projects" role="button">Projects</a></div>
+                <div class="col"><a class="btn btn-sm" href="#contact" role="button">Contact</a></div>
             </div>
         </div>
     </div>
-    <div style="padding:250px 0px"></div>
-    <div id="cover">
-        Cover
-
-    </div>
-
 </h1>
+
+<hr id="about" class="rule">
+
+<div class="block center">
+    <h3>About Me</h3>
+</div>
+
+<hr id="resume" class="rule">
+
+<div class="block center">
+    <h3> Resume </h3>
+
+</div>
+<div class="block" style="font-size: 15px">
+    <p style="font-weight:bold"> OBJECTIVE: </p>
+    <p> I am a dedicated student of Computer Science with a great passsion for coding. My work as a tutor at UW
+        Milwaukee has well expanded my skills as a leader and programmer. My goal is to obtain an internship with your
+        company to further expand my programming skills and gain valuable real world experience.</p>
+    <br>
+    <p style="font-weight:bold"> EDUCATION: </p>
+    <ul>
+        <li> University of Wisconsin-Milwaukee, Sept. 2021 - Present <br>
+            Bachelor of Science: Computer Science, Anticipated: May, 2024
+        </li>
+        <li>
+            University of Wisconsin-Green Bay CS 201 Introduction to Computing & Internet Technologies - Summer 2020
+        </li>
+        <li>
+            University of Wisconsin-Whitewater CS 216 Problem Solving & Programming Techniques in C++ - Fall 202
+        </li>
+    </ul>
+    <br>
+    <p style="font-weight:bold"> COMPUTER SKILLS: </p>
+    <ul>
+        <li>
+            <p> PROGRAMMING LANGUAGES: </p>
+            <ul>
+                <li> Java</li>
+                <li> C/C++</li>
+                <li> HTML/Javascript</li>
+                <li> Python</li>
+                <li> SML</li>
+                <li> Scala</li>
+            </ul>
+        </li>
+        <li>
+            <p> FRAMEWORKS: </p>
+            <ul>
+                <li> Django</li>
+                <li> Bootstrap</li>
+            </ul>
+        </li>
+        <li>
+            <p> IDEs: </p>
+            <ul>
+                <li> Visual Studio</li>
+                <li> PyCharm</li>
+                <li> Eclipse</li>
+                <li> Sublime</li>
+                <li> BlueJ</li>
+            </ul>
+        </li>
+    </ul>
+    <p style="font-weight:bold"> OTHER SKILLS: </p>
+    <ul>
+        <li> Agile development</li>
+        <li> Minor experience in Godot, Unreal Engine, and Blender</li>
+        <li> Excellent writen and oral communication skills</li>
+        <li> Easily adapts to work environments</li>
+        <li> Quick to learn new skills</li>
+    </ul>
+    <p style="font-weight:bold"> PROJECTS: </p>
+    <ul>
+        <li> UW Milwaukee CS 337 Final Project: Created a Tiny File System project in C which
+            uses an array of strings to represent bits that allow the storage of directories and files of a
+            size of 15 bits.
+        </li>
+        <li> UW Milwaukee CS 361 Group Project: Worked with a team to develop a TA Scheduling software while utilizing
+            Scrum management and Django. Responsibilities included developing the database design as well as writing
+            Html/CSS code for page templates and implementing several pages within the Django views file.
+        </li>
+        <li>
+            UW Milwaukee CS 351 Individual Assignments: Each assignment demonstrates my skills in writing Java to create
+            data structures such as Linked Lists, Graphs, Binary Search Trees, and more.
+        </li>
+        <li>
+            UW Whitewater CS 216 Final Project: Created a program in Visual Studio using C++ that allowed a user to
+            encode and decode messages depending on a given key.
+        </li>
+        <li>
+            Minor Godot Self-Project: Gained experience in developing within game engines by self-teaching Godot to
+            create simple functionalities within a 2D game.
+        </li>
+    </ul>
+    <p style="font-weight:bold"> WORK EXPERIENCE: </p>
+    <ul>
+        <li> University of Wisconsin-Milwaukee <br>
+            Tutor, February 2nd 2022 - Present
+            <ul>
+                <li> Led CS 351 Study Groups </li>
+                <li> Tutored students of all skill levels in CS 351 Data Structures and Algorithms </li>
+                <li> Utilized and developed leadership skills </li>
+            </ul>
+        </li>
+        <li>
+            Generac Power Systems, Janesville, WI <br>
+            Packager, June - Nov, 2022
+        </li>
+        <li>
+            SSI Technologies, Janesville, WI <br>
+            Production Operator, June 7th - Nov. 22nd, 2021
+        </li>
+        <li>
+            Skelly's Farm Market, Janesville, WI <br>
+            Cashier, June - Oct 31st, 2020
+        </li>
+    </ul>
+    <p style="font-weight:bold"> HONORS AND ACTIVITIES: </p>
+    <ul>
+        <li> High School Valedictorian  </li>
+        <li> 2019 MSOE Programming Competition Participant   </li>
+        <li> NCWIT Aspirations in Computing 2021 Regional Affiliate Winner	  </li>
+        <li> NCWIT Aspirations in Computing 2020 Regional Affiliate Honorable Mention  </li>
+        <li> 2021 Girls Who Code Member  </li>
+        <li> Former Humane Society of Southern Wisconsin Volunteer  </li>
+    </ul>
+</div>
+
+<hr id="projects" class="rule">
+
+<div class="block center">
+    <h3>Projects</h3>
+</div>
+
+<hr id="contact" class="rule">
+
+<div class="block center">
+    <h3>Contact</h3>
+</div>
+
 
 </body>
 </html>
