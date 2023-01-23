@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c477a675-6ac8-4f7c-b121-bfe1c7c2c5e4" name="Changes" comment="Added Group Project Embed">
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    <list default="true" id="c477a675-6ac8-4f7c-b121-bfe1c7c2c5e4" name="Changes" comment="Added Contact content&#10;Added Back to Top button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,9 @@
       <workItem from="1673916178534" duration="656000" />
       <workItem from="1673965359970" duration="875000" />
       <workItem from="1673985615010" duration="1533000" />
-      <workItem from="1674164733800" duration="3203000" />
+      <workItem from="1674164733800" duration="3316000" />
+      <workItem from="1674328668879" duration="62000" />
+      <workItem from="1674500878622" duration="1265000" />
     </task>
     <task id="LOCAL-00001" summary="Updated index.html">
       <created>1673552121481</created>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673987053045</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Contact content&#10;Added Back to Top button">
+      <created>1674168797541</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674168797541</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +180,8 @@
     <MESSAGE value="Added stylesheet&#10;Formatted and added information to index.html" />
     <MESSAGE value="Added Project Embeds" />
     <MESSAGE value="Added Group Project Embed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Group Project Embed" />
+    <MESSAGE value="Added Contact content&#10;Added Back to Top button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Contact content&#10;Added Back to Top button" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
