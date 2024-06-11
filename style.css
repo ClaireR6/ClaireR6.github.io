@@ -1,90 +1,68 @@
-body {
-    margin: 1%;
-    background: #575757;
-    border-right: 25px solid #7f7f7f;
-    border-left: 25px solid #7f7f7f;
-    box-sizing: border-box;
-}
-
-.card {
-    background: #7f7f7f;
+html, body {
+    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    padding: 25px 0px 100px 0px;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #EBF9F6;
 }
 
-h1 {
-    color: #D89C60;
+body {
+    height: fit-content;
+    width: 100%;
+    min-height: 100%; /* because the content might only be a few words */
+    box-sizing: border-box; /* because 100% + padding > 100% */
 }
 
-.col {
-    padding: 0px 10px;
+
+#content {
+    background-color: #EBF9F6;
 }
 
-.bracket {
-    color: #E87A00;
+#header {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #3C917B;
+    margin-top: 0;
+    top: 0;
 }
 
-div {
-    display: inline-block;
-    padding: 0px;
-    margin: 0px;
+.hdrLink {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
 }
 
-.btn {
-    background-color: #6b6b6b;
-    border-radius: 10px;
-    font-family: SansSerif;
-    font-size: 20px;
-    color: #E87A00;
-    transition-duration: .5s;
-    padding: 5px 7px;
-    border: 0 #575757;
-
-
+.pgHdrTxt {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: #504e4e;
 }
 
-.btn:hover {
-    background-color: #575757;
-    border-width: 3px;
+.pTxt {
+    color: #504e4e;
+    font-family: 'Droid Sans', serif
 }
 
-.rule {
-    margin: 25px 12.5% 50px 12.5%;
-    width: 75%;
-    border-width: 4px;
-}
-.block{
-    margin: .25in 1in .25in 1in;
-    color:white;
-    font-size:18px;
-}
-.center{
-    display: block;
-    text-align: center
-}
-.h3{
-    text-align:center;
+#collapseToggle:focus {
+    border: none;
 }
 
-#myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    background-color: #6b6b6b;
-    border-radius: 10px;
-    font-family: SansSerif;
-    font-size: 20px;
-    color: #E87A00;
-    transition-duration: .5s;
-    padding: 5px 7px;
-    border: 0 #575757;
-    cursor:pointer;
+.gray {
+    color: #CCCCCC
 }
 
-#myBtn:hover{
-    background-color: #7f7f7f;
-    border-width: 3px;
-    border-color: gray;
+.pt-8 {
+    padding-top: 8rem
 }

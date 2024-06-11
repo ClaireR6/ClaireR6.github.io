@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0a86d3bf39.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title> Claire Roca </title>
+</head>
+<body>
+<div class="col-12 w-100">
+    <div class="row align-items-center d-flex position-fixed py-4 w-100 mt-0 mx-0" id="header">
+        <div class="container d-flex flex-column">
+            <div class="row align-items-center d-flex">
+                <h4 class="mx-auto" style="color:white"> Claire Roca </h4>
+            </div>
+            <div class="row align-items-center d-flex">
+                <button class="btn btn-md mx-auto" style="max-width:50px" type="button"
+                        data-bs-toggle="collapse" data-target="#nav" aria-haspopup="true" aria-expanded="true">
+                    <i class="fa fa-lg fa-bars" style="color:white"></i>
+                </button>
+            </div>
+        </div>
+        <div class="row collapse" id="nav" style="background-color: #EC825B">
+            <!--            <div class="col-1 dropdown d-lg-none me-sm-0  me-auto">-->
+
+            <!--                <div class="dropdown-menu" style="background-color:#161718" aria-labelledby="dropdownBtn">-->
+            <!--                    <a href="/" class="hdrLink dropdown-item">Campaigns</a>-->
+            <!--                    <a href="/" class="hdrLink dropdown-item">Characters</a>-->
+            <!--                    <a href="/" class="hdrLink dropdown-item">Homebrew</a>-->
+            <!--                </div>-->
+            <!--            </div>-->
+            <div class="col-auto d-md-block d-none d-flex ms-2 mx-1 px-1">
+                <a href="/" class="hdrLink">Campaigns</a>
+            </div>
+            <div class="col-auto d-md-block d-none d-flex mx-1 px-1">
+                <a href="/" class="hdrLink">Characters</a>
+            </div>
+            <div class="col-auto d-md-block d-none d-flex mx-1 px-1">
+                <a href="/" class="hdrLink">Homebrew</a>
+            </div>
+        </div>
+    </div>
+    <div class="px-4" id="content" style="padding-top: 8em;">
+        {% block content %}
+        {% endblock %}
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
