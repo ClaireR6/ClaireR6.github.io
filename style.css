@@ -15,6 +15,17 @@ body {
     box-sizing: border-box; /* because 100% + padding > 100% */
 }
 
+@media (min-width: 576px) and (max-width: 821px) {
+    .w-sm-75 {
+        width: 75% !important; /* Change to any percentage you'd like */
+    }
+}
+
+@media (min-width: 821px) {
+    .w-md-50 {
+        width: 50% !important; /* Change to any percentage you'd like */
+    }
+}
 
 #content {
     background-color: #EBF9F6;
